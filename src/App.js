@@ -25,11 +25,11 @@ function App() {
           })
         )
       } else {
-        dispatch(logout)
+        dispatch(logout())
       }
     });
     return unsubcribe
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="App">
