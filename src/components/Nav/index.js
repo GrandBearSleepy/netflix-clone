@@ -32,7 +32,7 @@ const Nav = () => {
 
         <img
           onClick={() => history.push('/profile')}
-          src="https://www.allthetests.com/quiz22/picture/pic_1171831236_1.png"
+          src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
           alt=""
           className="nav-avatar"
         />
